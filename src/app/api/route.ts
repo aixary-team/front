@@ -14,7 +14,9 @@ export async function POST(req: Request) {
   try {
     // 1. 종료 조건 체크
     const lastUserMessage = messages[messages.length - 1].content;
-    const isExit = EXIT_TRIGGERS.some((trigger) => lastUserMessage.includes(trigger));
+    const isExit = EXIT_TRIGGERS.some((trigger) =>
+      lastUserMessage.includes(trigger)
+    );
 
     // 2. 일기 생성 로직
     if (isExit) {
