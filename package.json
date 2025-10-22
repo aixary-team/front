@@ -10,20 +10,22 @@
   },
   "dependencies": {
     "@tanstack/react-query": "^5.75.7",
-    "next": "15.3.2",
-    "openai": "^4.98.0",
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0"
+    "next": "^15.3.2",
+    "openai": "^4.104.0",
+    "react": "^19.2.0",
+    "react-dom": "^19.2.0",
+    "uuid": "^13.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
     "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
+    "@types/node": "^20.19.23",
+    "@types/react": "^19.2.2",
     "@types/react-dom": "^19",
+    "@types/uuid": "^11.0.0",
     "eslint": "^9",
     "eslint-config-next": "15.3.2",
     "tailwindcss": "^4",
-    "typescript": "^5"
+    "typescript": "^5.9.3"
   }
 }
